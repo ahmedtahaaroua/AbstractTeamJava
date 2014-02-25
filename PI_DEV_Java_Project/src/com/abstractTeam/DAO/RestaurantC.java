@@ -1,4 +1,4 @@
-package com.abstractTeam.Controller;
+package com.abstractTeam.DAO;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
