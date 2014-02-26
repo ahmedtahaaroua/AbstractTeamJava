@@ -21,7 +21,13 @@
 	<classpathentry kind="lib" path="lib/swtgraphics2d.jar"/>
 	<classpathentry kind="lib" path="lib/jfreechart-0.9.18-demo.jar"/>
 	<classpathentry kind="lib" path="lib/jfreechart-0.9.18.jar"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="lib/jfreechart-1.0.13.jar"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.18-bin.jar"/>
+=======
+	<classpathentry kind="lib" path="lib/swingx-all-1.6.4-sources.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-beaninfo-1.6.2.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-core-1.6.2.jar"/>
+>>>>>>> 49e9582c29fe60ae25471a67addd73891d689d89
 	<classpathentry kind="output" path="bin"/>
 </classpath>

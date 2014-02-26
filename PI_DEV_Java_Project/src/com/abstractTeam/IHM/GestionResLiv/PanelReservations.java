@@ -4,14 +4,14 @@ package com.abstractTeam.IHM.GestionResLiv;
 
 import java.awt.Color;
 import java.awt.Font;
-
-
-import javax.swing.ImageIcon;
+import java.util.Calendar;
 
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.MatteBorder;
 import javax.swing.border.TitledBorder;
+
+import org.jdesktop.swingx.JXMonthView;
 
 @SuppressWarnings("serial")
 public class PanelReservations extends JPanel {
@@ -31,15 +31,17 @@ public class PanelReservations extends JPanel {
 				TitledBorder.TOP, new Font(" Arial ", Font.BOLD, 15),
 				Color.DARK_GRAY));
 		setBounds(337, 76, 1013, 611);
-
 		setLayout(null);
-		setVisible(true);
-		lblNewLabel_1.setBounds(330, 221, 419, 120);
+	
 		
 	
-		add(lblNewLabel_1);
 		
 		
+	
+		
+		
+		
+		setVisible(true);
 	}
 
 }

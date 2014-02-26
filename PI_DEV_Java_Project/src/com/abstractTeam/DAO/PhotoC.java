@@ -1,4 +1,4 @@
-package com.abstractTeam.Controller;
+package com.abstractTeam.DAO;
 
 import java.awt.Component;
 import java.awt.image.DataBufferByte;
