@@ -2,11 +2,12 @@ package com.abstractTeam.Model;
 
 
 import java.io.Serializable;
+import java.util.Comparator;
 import java.util.List;
 
 
 
-public class Restaurant implements Serializable {
+public class Restaurant  {
 	private static final long serialVersionUID = 1L;
 
 
@@ -21,6 +22,7 @@ public class Restaurant implements Serializable {
 	private String nom;
 
 	private double note;
+
 
 	private String specialite;
 
@@ -163,5 +165,7 @@ public class Restaurant implements Serializable {
 	public void setTables(List<Table> tables) {
 		this.tables = tables;
 	}
+
+
 
 }

@@ -27,6 +27,8 @@ import javax.swing.JTree;
 import com.abstractTeam.IHM.GestionResLiv.PanelReservations;
 import com.abstractTeam.IHM.Inscription.PanelInscriptionRestaurant;
 import com.abstractTeam.IHM.Inscription.PanelStatistique;
+import com.abstractTeam.IHM.Inscription.PanelStatistique2;
+import com.abstractTeam.IHM.Inscription.Stat;
 
 import javax.swing.AbstractAction;
 import javax.swing.Action;
@@ -107,6 +109,7 @@ public class ApplicationFrame extends JFrame {
 	
 					ApplicationFrame.content.remove(ApplicationFrame.panelContenu);
 					ApplicationFrame.panelContenu= new PanelStatistique();
+					
 					ApplicationFrame.content.add(ApplicationFrame.panelContenu);
 					ApplicationFrame.content.validate();
 					ApplicationFrame.content.repaint();
@@ -171,8 +174,22 @@ public class ApplicationFrame extends JFrame {
 					ApplicationFrame.content.repaint();
 				}
 			});
-		mnNewMenu_1.add(mntmNewMenuItem2);
 		
+		
+		JMenuItem mntmNewMenuItem3 = new JMenuItem("meilleurs Restaurants");
+		mntmNewMenuItem3.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent arg0) {
+					ApplicationFrame.content.remove(ApplicationFrame.panelContenu);
+					ApplicationFrame.panelContenu= new PanelStatistique2();
+					ApplicationFrame.content.add(ApplicationFrame.panelContenu);
+					ApplicationFrame.content.validate();
+					ApplicationFrame.content.repaint();
+				}
+			});
+		
+		
+		mnNewMenu_1.add(mntmNewMenuItem2);
+		mnNewMenu_1.add(mntmNewMenuItem3);
 		JMenu mnNewMenu_2 = new JMenu("Outils");
 		menuBar.add(mnNewMenu_2);
 

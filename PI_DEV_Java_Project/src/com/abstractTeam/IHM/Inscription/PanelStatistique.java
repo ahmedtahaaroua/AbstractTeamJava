@@ -10,6 +10,8 @@ import java.awt.Image;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 
 import javax.imageio.ImageIO;
@@ -30,6 +32,10 @@ import org.jfree.chart.Legend;
 import org.jfree.chart.plot.PiePlot;
 import org.jfree.data.DefaultPieDataset;
 
+import com.abstractTeam.Controller.NoteDao;
+import com.abstractTeam.Controller.PlatDao;
+import com.abstractTeam.Model.Plat;
+
 @SuppressWarnings("serial")
 public class PanelStatistique  extends JPanel {
 
@@ -44,7 +50,8 @@ public class PanelStatistique  extends JPanel {
 				TitledBorder.TOP, new Font(" Arial ", Font.BOLD, 15),
 				Color.DARK_GRAY));
 		setBounds(337, 76, 1013, 611);
-
+	
+	
 		setLayout(null);
 		setVisible(true);
 		
@@ -69,6 +76,6 @@ public class PanelStatistique  extends JPanel {
 		
 	
 		
-		
+	
 	}}
 	

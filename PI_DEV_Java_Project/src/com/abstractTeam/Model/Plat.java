@@ -1,7 +1,10 @@
 package com.abstractTeam.Model;
 
 import java.io.Serializable;
+import java.util.Comparator;
 import java.util.List;
+
+import com.abstractTeam.Controller.NoteDao;
 
 
 
@@ -20,6 +23,10 @@ public class Plat implements Serializable {
 	private String label;
 
 	private double note;
+
+
+
+
 
 	private double prix;
 
@@ -146,4 +153,11 @@ public class Plat implements Serializable {
 		this.reservations = reservations;
 	}
 
+	
+
+	
+
+	
+
+	   
 }
